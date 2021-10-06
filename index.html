@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat&family=Vesper+Libre&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="stylesheet.css">
   <meta charset="utf-8" /> <!-- all text is encoded using utf-8 system -->
   <meta name="Nicholas' Personal Development">
@@ -9,38 +10,17 @@
 </head>
 
 <body>
-  <!-- Top of Page Header and Picture -->
-  <table>
-    <thead>
-      <th class="th-picture">
-        <img src="images/tess-dog.png" alt="Picture of Tess">
-      </th>
-      <th class="th-padding">
-        <h1>Nicholas Pastrano</h1>
-      </th>
-    </thead>
 
-    <tbody>
-      <tr>
-        <td></td>
-        <td class="td-padding">Beginner Full Stack Developer</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td class="td-padding">
-          Began learning on 08-31-2021
-        </td>
-      </tr>
-    </tbody>
-
-  </table>
-
+  <div class="div-img-tess">
+    <img src="images/tess-dog.png" alt="Tess Dog - Great Pyrenese">
+  </div>
+  <h1>The Great Pyrenese Tess Dog</h1>
   <hr>
   <!-- 2nd break, resources links -->
   <table celspacing="10">
     <thead>
-      <td>
-        <strong>Resources I am using</strong>
+      <td colspan="2">
+        <h3 class="h3-title">Resources I am using</h3>
       </td>
     </thead>
 
@@ -72,19 +52,20 @@
 
   <hr>
 
-  <h3>Developing Skills 🌟🌟🌟🌟🌟</h3>
-  <table cellspacing="20">
+  <table cellspacing="10">
     <thead>
-
+      <td colspan="5">
+        <h3 class="h3-title">Developing Skills 🌟🌟🌟🌟🌟</h3>
+      </td>
     </thead>
 
     <tbody>
       <tr>
-        <td>
+        <td class="skills">
           HTML Coding
         </td>
         <td>🌟🌟🌟</td>
-        <td>
+        <td class="skills">
           CSS Coding
         </td>
         <td>
@@ -92,13 +73,13 @@
         </td>
       </tr>
       <tr>
-        <td>
+        <td class="skills">
           React
         </td>
         <td>
           🌟
         </td>
-        <td>
+        <td class="skills">
           Javascript Coding
         </td>
         <td>
@@ -106,7 +87,7 @@
         </td>
       </tr>
       <tr>
-        <td>
+        <td class="skills">
           Bootstrap
         </td>
         <td>
@@ -122,17 +103,16 @@
 
   <hr>
 
-  <p>
-    <a href="my-hobbies.html">My Hobbies</a>
-    <a href="contact-info.html">Contact Me</a>
-  </p>
-
-
-
-
-
-
-
+  <footer>
+    <ul style="text-align: center;">
+      <li class="list-inline list-spacing">
+        <a href="my-hobbies.html">My Hobbies</a>
+      </li>
+      <li class="list-inline">
+        <a href="contact-info.html">Contact Me</a>
+      </li>
+    </ul>
+  </footer>
 
 </body>
 

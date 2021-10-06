@@ -1,33 +1,87 @@
-.td-padding {
-  padding-left: 20px;
-  text-align: center;
-}
-
-.th-padding {
-  padding-left: 20px;
-}
-
-.th-picture {
-  text-align: center;
-  padding: 50px;
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
 body {
   background: linear-gradient(90deg, rgb(99, 180, 184), rgb(87, 204, 153));
+  line-height: 1.4;
+}
+
+p{
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Italianno', cursive;
+  font-size: 3.5em;
+  text-align: center;
+  text-shadow: 1px 5px 10px rgba(63, 7, 19, .6);
+  color: #F7F6F2;
+}
+
+h3 {
+  font-size: 1.1em;
 }
 
 hr {
   border-style: dotted none none none;
-  border-color: grey;
+  border-color: white;
   border-width: 5px;
   width: 35px;
   margin: 50px auto 50px auto;
 }
 
 a {
-  color: rgb(59, 0, 0);
+  color: rgb(65, 0, 0);
+  text-shadow: 1px 2px 5px #3F0713;
+  text-decoration: none;
 }
 
-p {
+a:hover {
+  color: white;
+}
+
+img {
+  box-shadow: 3px 3px 10px black;
+  border-radius: 100%;
+  border: .5px solid black;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.div-img-tess {
+  margin-top: 25px;
   text-align: center;
+}
+
+.h3-title {
+  text-align: center;
+}
+
+ .skills {
+   color: rgb(65, 0, 0);
+   text-shadow: 1px 2px 5px #3F0713;
+ }
+
+.list-inline {
+  display: inline;
+  text-align: center;
+}
+
+.list-spacing {
+  margin-right: 20px;
 }
